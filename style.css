@@ -1,0 +1,92 @@
+body {
+	font-family: Arial, sans-serif;
+	background: linear-gradient(120deg, #98ff98, #00bfff);
+}
+
+h1 {
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	font-size: clamp(1.5rem, 5vw, 2.5rem);
+	color: #ffffff;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: bold;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 1rem;
+	font-size: clamp(1rem, 3vw, 1.5rem);
+	color: #fbfff9;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	max-width: 500px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	padding: 2rem;
+	border-radius: 1rem;
+	box-shadow: 0 0 0.5rem #1d283633;
+}
+
+label {
+	display: block;
+	margin-bottom: 1rem;
+	color: #333333;
+	font-size: 0.8rem;
+	font-weight: bold;
+}
+
+input[type="text"] {
+	display: block;
+	width: 100%;
+	padding: 0.8rem;
+	margin-bottom: 1.5rem;
+	border: none;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.2);
+	color: #333333;
+	font-size: 0.9rem;
+}
+
+button[type="submit"] {
+	background-color: #4CAF50;
+	color: #ffffff;
+	padding: 1rem 2rem;
+	border: none;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	font-size: 1rem;
+	font-weight: bold;
+	transition: 0.3s ease;
+}
+
+button[type="submit"]:hover {
+	background: #3bac3f;
+	
+	box-shadow: 0 0 5px #3e8e41,0 0 25px #3e8e41,0 0 50px #3e8e41,0 0 200px #3e8e41;
+
+}
+
+#result {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2rem;
+	width: 50vw;
+	
+	left: 50%; 
+	padding: 1.5rem;
+	background-color: #ffffff;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+	color: #333333;
+	font-size: 1.25rem;
+	line-height: 1.5;
+}

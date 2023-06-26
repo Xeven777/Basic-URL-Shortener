@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <div class='head'>
+        <h1 class='name'>URL Shortener</h1>
+        <h2>Hi! Let me Shorten your loonnngggg links instantly! </h2>
+    </div>
+    <form>
+
+        <label for="url">Enter a URL:</label><br>
+        <input type="text" id="url" name="url"><br>
+        <label for="custom">Custom code (Optional.Leave empty if not needed) :<br>(NOTE : Custom codes should consist of 4-32 lowercase letters,
+            numbers, - or _ symbols.
+            WHAT IF that custom code has error/ain't available?
+            No worries we got you covered.We'll generate a shortened link normally without errors !)</label><br>
+        <input type="text" id="custom" name="custom"><br>
+        <button type="submit">Shorten</button>
+    </form>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>

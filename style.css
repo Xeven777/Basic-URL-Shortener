@@ -1,6 +1,7 @@
 body {
 	font-family: Arial, sans-serif;
 	background: linear-gradient(120deg, #98ff98, #00bfff);
+
 }
 
 h1 {
@@ -16,7 +17,7 @@ h1 {
 h2 {
 	text-align: center;
 	margin-bottom: 1rem;
-	font-size: clamp(1rem, 3vw, 1.5rem);
+	font-size: clamp(1rem, 2vw, 1.75rem);
 	color: #fbfff9;
 }
 
@@ -37,8 +38,9 @@ form {
 label {
 	display: block;
 	margin-bottom: 1rem;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	color: #333333;
-	font-size: 0.8rem;
+	font-size: clamp(1rem, 1vw, 3rem);
 	font-weight: bold;
 }
 
@@ -55,7 +57,7 @@ input[type="text"] {
 }
 
 button[type="submit"] {
-	background-color: #4CAF50;
+	background-color: #46c061;
 	color: #ffffff;
 	padding: 1rem 2rem;
 	border: none;
@@ -67,9 +69,8 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-	background: #3bac3f;
-	
-	box-shadow: 0 0 5px #3e8e41,0 0 25px #3e8e41,0 0 50px #3e8e41,0 0 200px #3e8e41;
+	background: #41ca53;
+	box-shadow: 0 0 5px #41ca53, 0 0 25px #41ca53, 0 0 50px #41ca53, 0 0 200px #41ca53;
 
 }
 
@@ -80,9 +81,9 @@ button[type="submit"]:hover {
 	justify-content: center;
 	margin-top: 2rem;
 	width: 50vw;
-	
-	left: 50%; 
+	position: relative;
 	padding: 1.5rem;
+	left: 23%;
 	background-color: #ffffff;
 	border-radius: 0.5rem;
 	box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);

@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Gill+Sans:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 body {
-  font-family: Arial, sans-serif;
-  background: linear-gradient(120deg, #98ff98, #00bfff);
+  font-family: "Poppins";
+  background: linear-gradient(90deg, #53cf78, #00bcdd);
   margin: 0;
   padding: 0;
+  overflow-y: auto;
 }
 
 h1 {
@@ -13,7 +14,7 @@ h1 {
   margin-bottom: 1rem;
   font-size: clamp(1rem, 3vw, 2.5rem);
   color: #ffffff;
-  font-family: 'Gill Sans', sans-serif;
+  font-family: 'Gill Sans',sans-serif;
   font-weight: bold;
 }
 
@@ -42,10 +43,10 @@ form {
 label {
   display: block;
   margin-bottom: 1rem;
-  font-family: 'Gill Sans', sans-serif;
+  font-family: "Poppins";
+  font-weight: bolder;
   color: #333333;
   font-size: clamp(0.8rem, 1.1vw, 2.5rem);
-  font-weight: bold;
 }
 
 input[type="text"] {
@@ -74,7 +75,7 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background: #41ca53;
-  box-shadow: 0 0 5px #41ca53, 0 0 25px #41ca53, 0 0 50px #41ca53, 0 0 200px #41ca53;
+  box-shadow: 0 0 5px #41ca53, 0 0 25px #41ca53, 0 0 50px #89ee96;
 }
 
 #result {
@@ -82,12 +83,11 @@ button[type="submit"]:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 2rem auto;
+  margin: 2rem auto; /* Updated line */
   width: 80vw;
   max-width: 40rem;
   position: relative;
   padding: 1.5rem;
-  left: 10%;
   background-color: #ffffff;
   border-radius: 1rem;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
@@ -127,4 +127,25 @@ button[type="submit"]:hover {
   #result {
     font-size: 1rem;
   }
+}
+
+footer p {
+  font-weight: 500;
+  font-size: clamp(.9rem,1.4vw,3rem);
+  color: #fff;
+  text-align: center;
+}
+
+.footer-a {
+  text-decoration: none;
+  background: none;
+  color: #fff;
+}
+
+.footer-a:hover {
+  color: #5a09f1;
+}
+
+.bx {
+  color: #0028ad;
 }

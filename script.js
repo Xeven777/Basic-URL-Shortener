@@ -1,6 +1,6 @@
 function shortenUrl() {
-  const url = document.getElementById("url").value;
-  const custom = document.getElementById("custom").value;
+  let url = document.getElementById("url").value;
+  let custom = document.getElementById("custom").value;
   const payload = custom ? { long: url, custom: custom, useFallback: true } : { input: url };
 
   fetch("https://gotiny.cc/api", {

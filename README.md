@@ -22,7 +22,7 @@ This application was built using:
 
 ## How to run
 
-To run this application, simply open the `index.html` file in your web browser.
+To run this application, simply open the `index.html` file or https://gotiny.cc/shorty .
 
 ## Credits
 
